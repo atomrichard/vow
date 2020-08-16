@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  outline: none;
+  text-decoration: none;
+  outline: none;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+ol, ul, li {
+  list-style: none;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+button,
+input {
+  -webkit-appearance: none !important;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+[data-click] * {
+  pointer-events: none;
+}
+
+div#root .sol h2, div#root .getIt #button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+div#root .sol aside, div#root .getIt #input {
+  font-size: 20px;
+  text-align: center;
+  color: #7d92ab;
+}
+
+div#root {
+  padding: 40px;
+  font-family: "Crimson Text", serif;
+  color: #242d38;
+  background-color: #fdf6e3;
+}
+div#root .getIt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div#root .getIt #input {
+  width: 100%;
+  height: 70px;
+  padding: 0 20px;
+  border: 1px solid #bbc6d3;
+}
+div#root .getIt #button {
+  position: relative;
+  margin: 40px;
+  padding: 30px 80px;
+  background-color: #2aa198;
+  color: #fdf6e3;
+  font-size: 32px;
+}
+div#root .getIt #button::after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  margin: 8px;
+  border: 1px solid #fdf6e3;
+}
+div#root .getIt label {
+  width: 100%;
+  color: #2aa198;
+}
+div#root .sol {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #bbc6d3;
+  margin-bottom: 40px;
+}
+div#root .sol h2 {
+  padding-bottom: 20px;
+  color: #607895;
+}
+div#root .sol code {
+  display: block;
+  padding: 20px 20px 30px;
+  border-radius: 0;
+}
+
+/*# sourceMappingURL=pub.css.map */
