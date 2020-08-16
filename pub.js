@@ -98,6 +98,9 @@ const renderSols = () => {
   for (sol of sols) {
     les.sols.insertAdjacentHTML("beforeend", renderSol(sol.name, sol.solution, sol.review));
   }
+  les.root.insertAdjacentHTML("beforeend", `
+    <label>Have a nice week!</label>
+  `);
 }
 
 const renderSol = (name, code, note) => {

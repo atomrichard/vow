@@ -71,6 +71,10 @@ div#root {
   color: #242d38;
   background-color: #fdf6e3;
 }
+div#root label {
+  width: 100%;
+  color: #2aa198;
+}
 div#root .getIt {
   display: flex;
   justify-content: center;
@@ -101,10 +105,6 @@ div#root .getIt #button::after {
   height: calc(100% - 16px);
   margin: 8px;
   border: 1px solid #fdf6e3;
-}
-div#root .getIt label {
-  width: 100%;
-  color: #2aa198;
 }
 div#root .sol {
   padding-bottom: 40px;
