@@ -117,6 +117,8 @@ div#root .sol h2 {
 }
 div#root .sol code {
   display: block;
+  max-width: 100%;
+  overflow: auto;
   padding: 20px 20px 30px;
   border-radius: 0;
 }

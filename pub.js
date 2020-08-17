@@ -60,6 +60,18 @@ const sols = [
     }
   },
   {
+    name: `Balint Borbély`,
+    review: ``,
+    solution: (str) => {
+      for (let i = 0; i < str.length; i++) {
+
+          let vowels = /[aeiou]/gi;
+          comment = str.replace(vowels, '');
+      }
+      return comment;
+    }
+  },
+  {
     name: `Atom's Friday`,
     review: ``,
     solution: (str) => {
@@ -85,7 +97,6 @@ const main = () => {
     <div id="sols"></div>
   `);
   renderSols();
-  Prism.highlightAll();
 
   document.getElementById('input').focus();
   document.getElementById('button').addEventListener("click", renderSols);
@@ -101,6 +112,9 @@ const renderSols = () => {
   les.root.insertAdjacentHTML("beforeend", `
     <label>Have a nice week!</label>
   `);
+
+  Prism.highlightAll();
+
 }
 
 const renderSol = (name, code, note) => {
